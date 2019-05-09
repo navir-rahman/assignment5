@@ -1,0 +1,89 @@
+*{margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+
+}
+img{
+	max-width: 42px;
+	display: block;
+}
+body{}
+header{background: #494951;}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+}
+nav ul {}
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a{
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #c68bcc;
+    background: white;
+    border-radius: 11px;
+    transition: all 0.4s ease;
+}
+nav ul li a img{
+    border-radius: 0;
+}
+
+.fromsec{
+    padding: 50px 0;
+}
+form{
+    width: 600px;
+    margin: 0;
+    background: #6fff0657;
+    padding: 30px;
+}
+input{
+    border: 1px solid #cdf8a2;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+select{
+    border: 1px solid #cdf8a2;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+span{
+    color: white;
+}
+textarea{
+    border: 1px solid #cdf8a2;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+}
+label{
+    color: white;
+}
+input[type="radio"]{
+	width: auto;
+}
+.btn{
+    color: white;
+    background: #9be3d585;
+    border-radius: 3px;
+}
